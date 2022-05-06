@@ -1,0 +1,380 @@
+.body-Row {
+  height: 100vh;
+  background: #f8f8f8;
+}
+
+.sidebar {
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.04);
+  height: 100vh;
+  background: #ffffff;
+}
+
+.sidebar-head {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.sidebar-head p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #194af5;
+  margin: 0px;
+}
+
+.name-box h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  margin: 0px;
+  color: #2e2e2e;
+}
+
+.sidebar-buttons {
+  height: 41%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 16%;
+}
+
+.sideBar-button {
+  height: 48px;
+  width: 100%;
+  border-radius: 8px;
+  margin: 2% 0px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: left;
+}
+
+.sidebar-user {
+  height: 30%;
+  background: #f8f8f8;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-user-button {
+  background: #194af5;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #f8f8f8;
+  height: 40px;
+  margin: 6%;
+}
+
+.sidebar-logout {
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.sidebar-logout-button {
+  height: 40px;
+}
+
+.detail-part {
+  margin: 20px 50px 0px;
+  height: 100vh;
+}
+
+.search-box {
+  height: 8%;
+  margin-bottom: 2%;
+}
+
+.detail-boxes-div {
+  height: 16%;
+  margin-bottom: 4%;
+}
+
+.detail-boxes-div div {
+  border-radius: 12px;
+}
+
+.detail-inner-box {
+  display: flex;
+}
+
+.detail-icon-box {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconSpace {
+  border-radius: 50% !important;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail-detail-box {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-header {
+  height: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-bottom: 6px;
+}
+
+.detail-header h1 {
+  margin: 0px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.detail-number {
+  height: 50%;
+}
+
+.detail-number h1 {
+  margin: 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 39px;
+  color: #ffffff;
+}
+
+.patient-info-div {
+  height: 67%;
+  margin-top: 5%;
+}
+
+.request-inner-box {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+.request-inner-box-header {
+  height: 14%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.request-inner-box-header-leftbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.request-inner-box-header-leftbox h1 {
+  margin: 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.request-inner-box-header-rightbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.request-inner-box-header-rightbox h2 {
+  margin: 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #194af5;
+}
+
+.request-inner-box-body {
+  height: 80%;
+  overflow: auto;
+  border-top: 1px solid #e6ebed;
+  padding-top: 8px;
+}
+
+.request-detail-box {
+  height: 44px;
+  display: flex;
+  margin: 20px 16px;
+}
+
+.request-detail-box-detail {
+  width: 75%;
+  display: flex;
+}
+
+.patient-request-iconbox {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.patient-request-detail-box {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.patient-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #232526;
+}
+
+.patient-detail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #a9abad;
+}
+
+.request-detail-button-box {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrong-button {
+  background: #ffe5e7;
+  box-shadow: 0px 0px 50px #e5ecfc;
+  border-radius: 4px;
+  padding: 4px 10px;
+}
+
+.right-button {
+  background: #daf9cb;
+  box-shadow: 0px 0px 50px #e5ecfc;
+  border-radius: 4px;
+  padding: 4px 10px;
+}
+
+.today-appointment-box {
+  background: #ffffff;
+  height: 100%;
+}
+
+.appointment-detail-box-detail {
+  width: 82%;
+  display: flex;
+}
+
+.appointment-iconbox {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.appointment-detail-box {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-type-box {
+  width: 45%;
+  margin-right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.appointment-time {
+  width: 35%;
+  display: flex;
+  justify-content: flex-start;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  color: #5a6472;
+}
+
+.appointment-button-box {
+  width: 50%;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.appointment-button-type-button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.appointment-detail-button-box {
+  width: 18%;
+  display: flex;
+  align-items: center;
+}
+
+.diagnose-sec-button {
+  width: 100%;
+  border: 2px solid #194af5;
+  border-radius: 54px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #194af5;
+}
+
+.diagnose-pri-button {
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #f8f8f8;
+  background: #194af5;
+  border-radius: 4px;
+}
+
+.diagnose-tert-button {
+  width: 100%;
+  background: #e6ebff;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #194af5;
+}
